@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <listeners>
+        <listener class-name="listeners.TestExecutionListener"/>
+    </listeners>
+
+    <test name="Automation Tests">
+        <classes>
+            <class name="tests.LoginTest"></class>
+            <class name="tests.TableTest"></class>
+            <class name="tests.AlertsTest"></class>
+            <class name="tests.FileUploadTest"></class>
+        </classes>
+    </test>
+
+</suite>
